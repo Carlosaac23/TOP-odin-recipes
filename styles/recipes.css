@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --primaryColor: #fafafa;
+  --secondaryColor: #292929;
+  --tertiaryColor: #7c7c7c;
+  --gray200: #dcdcdc;
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  text-wrap: balance;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.recipe__container {
+  border: 1px solid var(--secondaryColor);
+  border-radius: 6px;
+  margin: 50px 0;
+  width: 600px;
+  box-shadow: 5px 5px 0 0 var(--secondaryColor);
+  padding: 20px;
+}
+
+.recipe__container-home:hover {
+  text-decoration: underline;
+}
+
+.recipe__title {
+  text-align: center;
+}
+
+.recipe__img {
+  border-radius: 6px;
+}
+
+.recipe__ingredients-container {
+  border-radius: 6px;
+  background-color: var(--gray200);
+  font-weight: 300;
+  padding: 15px;
+}
+
+.recipe__ingredients {
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+.recipe__steps {
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+.recipe__steps li {
+  margin: 5px 0;
+}
